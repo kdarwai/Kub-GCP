@@ -3,9 +3,6 @@ steps:
   args: ['build', '-t', 'us-east1-docker.pkg.dev/my-first-gcp-dataflow/gke-repo/quickstart-image', './app1' ]
   id: 'Build Docker Image'
 
-
-  us-east1-docker.pkg.dev/my-first-gcp-dataflow/gke-repo
-
   # images:
   # - 'us-central1-docker.pkg.dev/<your_project_id>/gke-repo/quickstart-image'
 
